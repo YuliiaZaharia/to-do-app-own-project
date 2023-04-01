@@ -1,0 +1,80 @@
+.heading, .welcome, .container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+color: #3D262A;
+font-size: 65px;
+}
+
+h2 {
+    color: #3D262A;
+    font-size: 30px;
+}
+
+.inputArea {
+padding: 20px;
+width: 35%;
+border: none;
+border-radius: 4px;
+}
+
+.btn {
+    padding: 20px;
+    background-color: #EAB64D;
+    border: none;
+    border-radius: 4px;
+}
+
+body {
+    background-image: url(mandala-background-4428298.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #127C56;
+}
+
+.toDoStyle {
+    background-color: #EAB64D;
+    list-style-type: none;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+    color: #4e4d4b;
+    font-size: 23px;
+    border-bottom: 1px solid #ECF3F6;
+    border-radius: 4px;
+}
+
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toDoDone {
+    font-weight: bold;
+    text-decoration: line-through;
+    background: #ECF3F6;
+    color: #53524f;
+    transition: all 1s ease;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}  
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 34px;
+    }
+}
